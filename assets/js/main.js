@@ -332,14 +332,4 @@
 
 			});
 
-	// Resume
-		document.getElementById("resume").addEventListener
-		("click", function() {
-			var pdfUrl = "/documents/RESUME_DEVOPS_JOAN.pdf";
-        	var newWindow = window.open(pdfUrl, "_blank");
-        	if (!newWindow) {
-         		alert("Pop-up blocked. Please allow pop-ups for this website.");
-        	}
-		})
-
 })(jQuery);
